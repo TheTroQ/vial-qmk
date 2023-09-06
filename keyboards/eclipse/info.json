@@ -1,7 +1,7 @@
 {
-    "manufacturer": "TheTroQ",
-    "keyboard_name": "eclipse",
-    "maintainer": "TheTroQ",
+    "manufacturer": "Dratii",
+    "keyboard_name": "Eclipse",
+    "maintainer": "Dratii",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
     "features": {

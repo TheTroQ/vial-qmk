@@ -1,4 +1,7 @@
 {
+	"name": "Eclipse",
+    "vendorId": "0xBEEF",
+    "productId": "0x0000",
     "lighting": "none",
     "matrix": {
         "rows": 5,
