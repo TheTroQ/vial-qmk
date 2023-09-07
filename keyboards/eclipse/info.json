@@ -14,8 +14,8 @@
 		"encoder": true
     },
     "matrix_pins": {
-        "cols": ["GP1", "GP2", "GP3", "GP4","GP5"],
-        "rows": ["GP6", "GP7", "GP8", "GP9"]
+        "cols": ["GP0", "GP1", "GP2", "GP3","GP4"],
+        "rows": ["GP5", "GP6", "GP7", "GP8"]
     },
     "processor": "RP2040",
     "url": "",
@@ -26,9 +26,9 @@
     },
   "encoder": {
     "rotary": [
-      { "pin_a": "GP9", "pin_b": "GP27", "resolution": 4 },
-      { "pin_a": "GP10", "pin_b": "GP28", "resolution": 4 },
-	  { "pin_a": "GP26", "pin_b": "GP29", "resolution": 4 }
+      { "pin_a": "GP9", "pin_b": "GP27", "resolution": 24 },
+      { "pin_a": "GP10", "pin_b": "GP28", "resolution": 24 },
+	  { "pin_a": "GP26", "pin_b": "GP29", "resolution": 24 }
 			  ]
 	},
     "layouts": {
@@ -51,9 +51,9 @@
                 {"matrix": [3, 2], "x": 2, "y": 3},
                 {"matrix": [3, 3], "x": 3, "y": 3},
 				
-				{"matrix": [0, 4], "x": 3, "y": 3},
-				{"matrix": [1, 4], "x": 3, "y": 3},
-				{"matrix": [2, 4], "x": 3, "y": 3}
+				{"matrix": [0, 4], "x": 4, "y": 0},
+				{"matrix": [1, 4], "x": 4, "y": 1},
+				{"matrix": [2, 4], "x": 4, "y": 2}
 				
             ]
         }
